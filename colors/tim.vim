@@ -19,6 +19,7 @@ hi Define			ctermfg=Yellow											guifg=Blue		guibg=Yellow
 hi Directory																	guifg=Blue
 hi Error				ctermfg=Red		ctermbg=Black						guifg=Red		guibg=Black
 hi ErrorMsg			ctermfg=White	ctermbg=Blue						guifg=White		guibg=Red
+hi Exception		ctermfg=Red	  	ctermbg=none		 				guifg=Blue		guibg=Yellow
 hi FoldColumn		ctermfg=Black	ctermbg=Grey						guifg=Black		guibg=DarkGrey
 hi Folded			ctermfg=Black	ctermbg=Grey						guifg=Black
 hi Function			ctermfg=Magenta										guifg=Blue		guibg=Yellow
@@ -64,7 +65,6 @@ hi link Include	PreProc
 "These terms are apparently never used.  If they pop up they're going to be pretty gaudy.
 "There's a red bracket on line 134 of wstdio.c that I don't get
 "
-hi Exception		ctermfg=magenta	ctermbg=red				guifg=Blue		guibg=Yellow
 "hi StorageClass	ctermfg=magenta	ctermbg=yellow			guifg=Blue		guibg=YellowType "overrides consts, shouldn't
 hi Typedef			ctermfg=magenta	ctermbg=red				guifg=Blue		guibg=Yellow
 "hi Delimiter		ctermfg=magenta	ctermbg=blue			guifg=Blue		guibg=Yellow "Angle brackets, sometimes
